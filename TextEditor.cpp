@@ -3136,8 +3136,9 @@ ImWchar TextEditor::Document::getCodePoint(Coordinate location) {
 
 void TextEditor::Document::updateMaximumColumn(int first, int last) {
 	// process specified lines
-	for (auto line = begin() + first; line <= begin() + last; line++) {
-		// determine the maximum column number for this line
+	for (auto line = begin() + first; line < begin() + last; line++) {
+        // [MaaBlock]:Change <= to <, to avoid runtime error
+	    // determine the maximum column number for this line
 		int column = 0;
 
 		for (auto glyph = line->begin(); glyph < line->end(); glyph++) {
