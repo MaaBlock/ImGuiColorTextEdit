@@ -10,6 +10,8 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 ![Maintained](https://img.shields.io/maintenance/yes/2025?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-0.9-blue?style=for-the-badge)
+<br/>
+[中文](README_zh.md)
 
 # Colorizing Text Editor and Text Diff for Dear ImGui
 
